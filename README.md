@@ -1,6 +1,6 @@
-<div align="center">
+[![awesome-lead-generation](image/awesome-privacy-adtech.png)](https://github.com/adops-tool/awesome-privacy-adtech/pulls)
 
-# Awesome Privacy AdTech
+[![animated-line](https://github.com/readme-SVG/animated-line/blob/main/STORAGE/line-svg-3D444D.svg)](https://github.com/readme-SVG/animated-line) <!-- -SVG-Line- -->
 
 **Open-source consent tooling, normative specifications, and privacy-enhancing technologies for engineers building ad-funded products that respect users.**
 
