@@ -32,7 +32,7 @@ A curated map of the privacy engineering surface for advertising systems: self-h
 
 ---
 
-## 1. Open-Source Consent Management Platforms (CMPs) 🍪
+## 1. Open-Source Consent Management Platforms (CMPs)
 
 Self-hostable consent interfaces with real script gating — the part of a CMP that actually determines whether a tracker fires. Registration with a consent framework is a separate, organisational step.
 
@@ -45,7 +45,7 @@ Self-hostable consent interfaces with real script gating — the part of a CMP t
 - [Silktide Consent Manager](https://github.com/silktide/consent-manager) - MIT-licensed banner driven by a JSON configuration and paired with a script-blocking layer that runs before consent.
 - [react-cookie-consent](https://github.com/Mastermindzh/react-cookie-consent) - Minimal cookie consent bar for React applications, useful as a UI primitive rather than a complete compliance layer.
 
-## 2. Consent & Privacy Standards 📜
+## 2. Consent & Privacy Standards
 
 The wire formats and in-page APIs that carry consent between publishers, CMPs, and vendors. If you are decoding a string in a bid request, the normative text lives here.
 
@@ -71,7 +71,7 @@ The wire formats and in-page APIs that carry consent between publishers, CMPs, a
 - [w3c/gpc](https://github.com/w3c/gpc) - Editor's draft, explainer, and issue tracker for GPC, now a W3C Privacy Working Group standards-track item.
 - [globalprivacycontrol.org](https://globalprivacycontrol.org/) - Implementer-facing home for GPC with browser and extension support status plus a reference server to test against.
 
-## 3. Browser Privacy & Sandbox APIs 🔒
+## 3. Browser Privacy & Sandbox APIs
 
 What browsers actually enforce. Note that the Chrome ad-targeting stack was largely deprecated in 2025–2026, so these entries matter both as live implementation targets and as the documentary record of an architectural direction the industry abandoned.
 
@@ -103,7 +103,7 @@ What browsers actually enforce. Note that the Chrome ad-targeting stack was larg
 
 - [Multi-Account Containers](https://github.com/mozilla/multi-account-containers) - Firefox extension that partitions cookies and site data per container, a user-controlled analogue of first-party-set storage isolation.
 
-## 4. Privacy-Enhancing Technologies (PETs) & Clean Rooms 🧮
+## 4. Privacy-Enhancing Technologies (PETs) & Clean Rooms
 
 The cryptographic and statistical substrate for computing aggregate answers over data that never leaves its owner's boundary.
 
@@ -150,7 +150,7 @@ The cryptographic and statistical substrate for computing aggregate answers over
 - [IAB Tech Lab Differential Privacy Guide](https://iabtechlab.com/differential-privacy/) - Practitioner-oriented treatment of applying DP to targeting and attribution, including the privacy-versus-utility trade-off.
 - [FBPCS](https://github.com/facebookresearch/fbpcs) - Meta's MPC-based private computation service for ads measurement, archived as a worked reference architecture.
 
-## 5. Alternative Identifiers & Cookieless Specs 🔗
+## 5. Alternative Identifiers & Cookieless Specs
 
 Proposals for addressability that survive without third-party cookies — and the plumbing that decides whether they are allowed to fire.
 
@@ -175,7 +175,7 @@ Proposals for addressability that survive without third-party cookies — and th
 - [SharedID](https://github.com/prebid/Shared-Id) - Prebid's donated shared cookie namespace with an opt-out and TCF-aware consent handling.
 - [Trusted Server](https://github.com/InteractiveAdvertisingBureau/Trusted-Server) - IAB Tech Lab's Rust-to-Wasm edge runtime that gives publishers a durable first-party context at the CDN perimeter instead of in the browser.
 
-## 6. Auditing, Debugging & Compliance Tools 🔍
+## 6. Auditing, Debugging & Compliance Tools
 
 Instrumentation for the question that actually matters in an audit: what fired, on whose behalf, and was there consent for it.
 
@@ -192,7 +192,7 @@ Instrumentation for the question that actually matters in an audit: what fired, 
 - [IAB GPP encoder/decoder](https://iabgpp.com/) - Hosted tool for decoding and re-encoding GPP, TCF-EU, TCF-CA, and US state strings, indispensable when a vendor sends a malformed one.
 - [Privacy Sandbox Analysis Tool](https://github.com/GoogleChromeLabs/ps-analysis-tool) - Chrome extension and CLI that inventories cookies and maps them to Privacy Sandbox API usage, archived but still the clearest worked example of client-side cookie attribution.
 
-## 7. Technical Reading & Working Groups 📚
+## 7. Technical Reading & Working Groups
 
 Where the debates happen and where the reasoning is recorded. Read the issue threads before trusting a summary of any proposal.
 
@@ -220,7 +220,7 @@ Where the debates happen and where the reasoning is recorded. Read the issue thr
 
 ---
 
-## Contributing 🤝
+## Contributing
 
 Contributions are welcome and genuinely useful — this list degrades quickly without maintenance.
 
@@ -243,10 +243,12 @@ Contributions are welcome and genuinely useful — this list degrades quickly wi
 
 Feel free to open an issue to propose a new section before writing entries for it.
 
-## License ⚖️
+## License
 
 [![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors to this repository have waived all copyright and related or neighbouring rights to this work. The full text is in [LICENSE](LICENSE).
 
 This list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) so that it can be reused, remixed, and embedded without attribution friction. Individual projects listed here remain under their own licences — check each repository before adopting code, and note that several entries are specification documents governed by W3C or IAB Tech Lab IPR policies rather than software licences.
+
+[![CC0](https://img.shields.io/badge/CC0-1.0-lightgrey?style=flat-square)](LICENSE)
