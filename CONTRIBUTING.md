@@ -1,3 +1,8 @@
+[![CONTRIBUTING](https://github.com/OstinUA/Promt-AI-Helper/blob/main/Additional%20files/Image/CONTRIBUTING.svg)](https://github.com/adops-tool)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-3e80ed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adops-tool/(https://github.com/adops-tool/awesome-server-side-tracking/pulls)/pulls)
+[![Open Source](https://img.shields.io/badge/Open_Source-Yes-brightgreen?style=for-the-badge&logo=open-source&logoColor=white)](https://github.com/adops-tool/awesome-server-side-tracking/pulls)/pulls)
+
 # Contributing to Awesome Privacy Adtech
 
 Thank you for helping maintain a practical reference for engineers working on privacy in advertising. Contributions can include open-source tools, technical specifications, reference implementations, and other substantive technical resources.
