@@ -22,8 +22,6 @@ A curated map of the privacy engineering surface for advertising systems: self-h
 
 **Currency note (November 2026).** This landscape moves fast and several long-standing assumptions no longer hold. Chrome has **deprecated and removed** Attribution Reporting, Protected Audience, Topics, Shared Storage, Private Aggregation, and Related Website Sets, and is phasing out Fenced Frames; the entries below are labelled accordingly because the designs remain the reference material for the wider industry. IAB Tech Lab renamed the **Global Privacy Platform** the **Global Privacy Protocol** (both abbreviated GPP) and renamed **Seller Defined Audiences** to **Curated Audiences**, while Apple's **Private Click Measurement** is now shipped as **Web AdAttributionKit**. Two mechanisms standardised outside that stack now matter on their own terms: **Privacy Pass** has an active IETF working group with several open clients and issuers, and **Oblivious HTTP** was published as **RFC 9458**; both are collected in section 7.
 
-**Legend:** ![github](image/alg_R.png) GitHub resource · ![web](image/alg_I.png) website or published document.
-
 ## Table of Contents
 
 - [1. Open-Source Consent Management Platforms (CMPs)](#1-open-source-consent-management-platforms-cmps)
